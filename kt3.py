@@ -5,7 +5,7 @@ import json
 BASE_URL_PETSTORE = 'https://petstore.swagger.io/v2'
 
 # GET
-user_id = 1
+user_id = 4
 response = requests.get(f'{BASE_URL_PETSTORE}/user/{user_id}')
 
 pprint.pprint(response.status_code)
